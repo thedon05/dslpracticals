@@ -1,7 +1,7 @@
 # Given string
 Str = "Fundamentals of Data Structure of Data Science"
 
-# a) Function to display the word with the longest length
+# a) Function to display the word with the longest length 
 def longest_word():
     words = Str.split()  
     longest = max(words, key=len)
